@@ -19,7 +19,7 @@
             <audio v-if="newAudio" :src="newAudioURL" controls></audio>
 
             <button 
-                :disabled="!newMessageText || loading || !newAudio"
+                :disabled="!newMessageText || loading"
                 class="button is-success"
                 type="text"
                 @click="addMessage(user.uid, newMessageText)">
@@ -92,7 +92,7 @@ export default {
             this.newAudio = null;
         },
         handleSubmit(uid) {
-            if(this.newMessageText && !this.loading || this.newAudio) {
+            if(this.newMessageText && !this.loading) {
                 
                 this.addMessage(uid);
             }

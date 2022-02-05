@@ -7,7 +7,7 @@
             </li>
         </ul>
 
-        <button @click="createChatRoom()">Create a New Chat Room</button>
+        <button class= "button" @click="createChatRoom()">Create a New Chat Room</button>
     </div>
 </template>
 
