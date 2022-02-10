@@ -1,5 +1,13 @@
 # walkie-talkie
 
+
+# Nextjs Firebase app- a blogging/social media app
+
+created from [@fireship-io](https://github.com/fireship-io)'s course [next-firebase-course](https://github.com/fireship-io/vue-firebase-walkie-talkie)
+======
+
+
+
 ## Project setup
 ```
 npm install
@@ -19,6 +27,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
